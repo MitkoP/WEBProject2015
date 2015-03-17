@@ -1,0 +1,33 @@
+body{
+    font font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+#nav{
+    width: 80%;
+    margin: 5% 5%;
+    float: left;
+    /*margin: 0 0 3em 0;*/
+    padding: 0;
+    list-style: none;
+    background-color: azure;
+    border: 1px solid #ccc;
+}
+
+#nav li{
+    float: left;
+}
+#nav li a{
+    display: block;
+    padding: 8px 70px;
+    text-decoration: none;
+    font-weight: bold;
+    color:cadetblue;
+    border-right: 1px solid #ccc;
+}
+
+#nav li a:hover{
+    color: red;
+    background-color: aqua;
+}
